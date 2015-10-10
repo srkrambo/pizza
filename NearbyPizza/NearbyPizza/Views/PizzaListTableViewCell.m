@@ -31,5 +31,10 @@
     self.statsLabel.text = [NSString stringWithFormat:@"%@ tipped",venueItem.stats.tipCount];
 }
 
+- (void)setCellWithShop:(PizzaShop *)shop{
+    self.nameLabel.text = shop.name;
+    self.addressLabel.text = shop.address;
+    self.statsLabel.text = [NSString stringWithFormat:@"%@ tipped",shop.tipCount];
+}
 
 @end

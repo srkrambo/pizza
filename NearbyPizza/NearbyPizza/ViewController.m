@@ -12,11 +12,13 @@
 #import "PizzaListTableViewCell.h"
 #import "VenueItem.h"
 #import "DetailViewController.h"
+#import "Constants.h"
 
 @interface ViewController ()<CLLocationManagerDelegate>
 
 @property (nonatomic, strong)CLLocationManager *locationManager;
 @property (nonatomic, strong)NSArray *pizzaShops;
+@property (nonatomic, strong)NSArray *coreDataShops;
 
 @end
 
@@ -44,8 +46,8 @@
             [self showLoading];
             [PizzaListModelService fetchDataForLocation:self.locationManager.location withCompletion:^(NSArray *venueArray, NSError *error, NSHTTPURLResponse *response) {
                 [self dismissLoading];
-                self.pizzaShops = venueArray;
-                [self.tableView reloadData];
+//                self.pizzaShops = venueArray;
+//                [self.tableView reloadData];
             }];
         }
 
@@ -60,11 +62,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(dataLoaded) name:kDataLoadedNotification object:nil];
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
+
+- (void)dataLoaded {
+    self.coreDataShops = [PizzaListModelService fetchAllObjects];
+    [self.tableView reloadData];
+}
+
 #pragma MARK - UITableViewDelegate
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return self.pizzaShops.count;
+    return self.coreDataShops.count;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -72,9 +89,8 @@
     PizzaListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
     cell.backgroundColor = [UIColor clearColor];
-    
-    VenueItem *venueItem = [self.pizzaShops objectAtIndex:indexPath.row];
-    [cell setCellWithVenueItem:venueItem];
+    PizzaShop *shop = [self.coreDataShops objectAtIndex:indexPath.row];
+    [cell setCellWithShop:shop];
     return cell;
 
 }
@@ -82,7 +98,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     DetailViewController *detailVC = [self.storyboard instantiateViewControllerWithIdentifier:@"detailVC"];
-    detailVC.venueItem = [self.pizzaShops objectAtIndex:indexPath.row];
+    detailVC.shop = [self.coreDataShops objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 

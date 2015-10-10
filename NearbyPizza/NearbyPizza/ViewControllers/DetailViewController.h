@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "BaseTableViewController.h"
 #import "VenueItem.h"
+#import "PizzaShop.h"
 
 @interface DetailViewController : BaseTableViewController
 
 @property (nonatomic)VenueItem *venueItem;
+@property (nonatomic) PizzaShop *shop;
 
 @end

@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerNib:[UINib nibWithNibName:@"PizzaDetailTableViewCell" bundle:nil] forCellReuseIdentifier:@"Cell"];
-    self.title = self.venueItem.name;
+    self.title = self.shop.name;
     // Do any additional setup after loading the view.
 }
 
@@ -39,7 +39,8 @@
     PizzaDetailTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.backgroundColor = [UIColor clearColor];
-    [cell setCellWithVenueItem:self.venueItem];
+//    [cell setCellWithVenueItem:self.venueItem];
+    [cell setCellWithShop:self.shop];
     return cell;
     
 }

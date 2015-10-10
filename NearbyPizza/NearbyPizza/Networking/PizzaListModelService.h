@@ -12,5 +12,6 @@
 @interface PizzaListModelService : NSObject
 
 + (void)fetchDataForLocation:(CLLocation *) location withCompletion:(void (^)(NSArray *venueArray, NSError *error, NSHTTPURLResponse *response))completion;
++ (NSArray *)fetchAllObjects;
 
 @end

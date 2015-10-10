@@ -37,6 +37,8 @@
 		E1E25E531BC96BA100F1BDBE /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E521BC96BA100F1BDBE /* New_York_Trip.gpx */; settings = {ASSET_TAGS = (); }; };
 		E1E25E571BC9776900F1BDBE /* PizzaListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E551BC9776900F1BDBE /* PizzaListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		E1E25E581BC9776900F1BDBE /* PizzaListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E561BC9776900F1BDBE /* PizzaListTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E1E25E5E1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E5B1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E5F1BC97B1200F1BDBE /* PizzaShop.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E5D1BC97B1200F1BDBE /* PizzaShop.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,10 @@
 		E1E25E541BC9776900F1BDBE /* PizzaListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaListTableViewCell.h; path = Views/PizzaListTableViewCell.h; sourceTree = "<group>"; };
 		E1E25E551BC9776900F1BDBE /* PizzaListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaListTableViewCell.m; path = Views/PizzaListTableViewCell.m; sourceTree = "<group>"; };
 		E1E25E561BC9776900F1BDBE /* PizzaListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaListTableViewCell.xib; path = Views/PizzaListTableViewCell.xib; sourceTree = "<group>"; };
+		E1E25E5A1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PizzaShop+CoreDataProperties.h"; path = "Models/CoreData/PizzaShop+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E1E25E5B1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PizzaShop+CoreDataProperties.m"; path = "Models/CoreData/PizzaShop+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E1E25E5C1BC97B1200F1BDBE /* PizzaShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaShop.h; path = Models/CoreData/PizzaShop.h; sourceTree = "<group>"; };
+		E1E25E5D1BC97B1200F1BDBE /* PizzaShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaShop.m; path = Models/CoreData/PizzaShop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +165,6 @@
 				E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */,
 				E1E25E031BC94FDE00F1BDBE /* LaunchScreen.storyboard */,
 				E1E25E061BC94FDE00F1BDBE /* Info.plist */,
-				E1E25DFE1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld */,
 				E1E25DF21BC94FDE00F1BDBE /* Supporting Files */,
 			);
 			path = NearbyPizza;
@@ -216,6 +221,7 @@
 				E1E25E471BC9654B00F1BDBE /* Menu.m */,
 				E1E25E491BC965A500F1BDBE /* ShopCategory.h */,
 				E1E25E4A1BC965A500F1BDBE /* ShopCategory.m */,
+				E1E25E591BC97AD200F1BDBE /* CoreData */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -250,6 +256,18 @@
 				E1E25E211BC95ECA00F1BDBE /* Constants.h */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		E1E25E591BC97AD200F1BDBE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25E5A1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.h */,
+				E1E25E5B1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.m */,
+				E1E25E5C1BC97B1200F1BDBE /* PizzaShop.h */,
+				E1E25E5D1BC97B1200F1BDBE /* PizzaShop.m */,
+				E1E25DFE1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +390,7 @@
 				E1E25E1F1BC95CB300F1BDBE /* EnvironmentHelper.m in Sources */,
 				E1E25E2A1BC962C900F1BDBE /* BaseResponseModel.m in Sources */,
 				E1E25E481BC9654B00F1BDBE /* Menu.m in Sources */,
+				E1E25E5E1BC97B1200F1BDBE /* PizzaShop+CoreDataProperties.m in Sources */,
 				E1E25E391BC964FE00F1BDBE /* Contact.m in Sources */,
 				E1E25DF41BC94FDE00F1BDBE /* main.m in Sources */,
 				E1E25E571BC9776900F1BDBE /* PizzaListTableViewCell.m in Sources */,
@@ -379,6 +398,7 @@
 				E1E25E001BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld in Sources */,
 				E1E25E331BC963A900F1BDBE /* VenueResponseModel.m in Sources */,
 				E1E25E171BC954D400F1BDBE /* PizzaDetailTableViewCell.m in Sources */,
+				E1E25E5F1BC97B1200F1BDBE /* PizzaShop.m in Sources */,
 				E1E25E2D1BC962FC00F1BDBE /* MetaModel.m in Sources */,
 				E1E25E301BC9635800F1BDBE /* BaseVenueModel.m in Sources */,
 				E1E25E3C1BC9650A00F1BDBE /* Location.m in Sources */,

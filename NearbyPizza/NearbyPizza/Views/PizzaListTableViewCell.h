@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 #import "VenueItem.h"
+#import "PizzaShop.h"
+#import "PizzaShop+CoreDataProperties.h"
 
 @interface PizzaListTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
@@ -16,5 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *statsLabel;
 
 - (void)setCellWithVenueItem:(VenueItem *)venueItem;
+- (void)setCellWithShop:(PizzaShop *)shop;
 
 @end
