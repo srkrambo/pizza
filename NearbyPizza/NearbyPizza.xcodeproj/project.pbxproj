@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A637A0CE6248081F0882A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9941316D8131B27601452DF /* libPods.a */; };
+		E1E25DF41BC94FDE00F1BDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25DF31BC94FDE00F1BDBE /* main.m */; };
+		E1E25DF71BC94FDE00F1BDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25DF61BC94FDE00F1BDBE /* AppDelegate.m */; };
+		E1E25DFA1BC94FDE00F1BDBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25DF91BC94FDE00F1BDBE /* ViewController.m */; };
+		E1E25DFD1BC94FDE00F1BDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E25DFB1BC94FDE00F1BDBE /* Main.storyboard */; };
+		E1E25E001BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1E25DFE1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld */; };
+		E1E25E021BC94FDE00F1BDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */; };
+		E1E25E051BC94FDE00F1BDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E031BC94FDE00F1BDBE /* LaunchScreen.storyboard */; };
+		E1E25E101BC9549300F1BDBE /* PizzaListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E0F1BC9549300F1BDBE /* PizzaListTableViewCell.xib */; };
+		E1E25E131BC954B700F1BDBE /* PizzaListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E121BC954B700F1BDBE /* PizzaListTableViewCell.m */; };
+		E1E25E171BC954D400F1BDBE /* PizzaDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E151BC954D400F1BDBE /* PizzaDetailTableViewCell.m */; };
+		E1E25E181BC954D400F1BDBE /* PizzaDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E161BC954D400F1BDBE /* PizzaDetailTableViewCell.xib */; };
+		E1E25E1C1BC957CB00F1BDBE /* PizzaListModelService.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E1B1BC957CB00F1BDBE /* PizzaListModelService.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		584FAB8076E24FE84E3DF99C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		733BACDC4B30C0340BACC8A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D9941316D8131B27601452DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E25DEF1BC94FDE00F1BDBE /* NearbyPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E25DF31BC94FDE00F1BDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1E25DF51BC94FDE00F1BDBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1E25DF61BC94FDE00F1BDBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1E25DF81BC94FDE00F1BDBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1E25DF91BC94FDE00F1BDBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1E25DFC1BC94FDE00F1BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1E25DFF1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearbyPizza.xcdatamodel; sourceTree = "<group>"; };
+		E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E25E041BC94FDE00F1BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E25E061BC94FDE00F1BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E25E0F1BC9549300F1BDBE /* PizzaListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaListTableViewCell.xib; path = Views/PizzaListTableViewCell.xib; sourceTree = "<group>"; };
+		E1E25E111BC954B700F1BDBE /* PizzaListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaListTableViewCell.h; path = Views/PizzaListTableViewCell.h; sourceTree = "<group>"; };
+		E1E25E121BC954B700F1BDBE /* PizzaListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaListTableViewCell.m; path = Views/PizzaListTableViewCell.m; sourceTree = "<group>"; };
+		E1E25E141BC954D400F1BDBE /* PizzaDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaDetailTableViewCell.h; path = Views/PizzaDetailTableViewCell.h; sourceTree = "<group>"; };
+		E1E25E151BC954D400F1BDBE /* PizzaDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaDetailTableViewCell.m; path = Views/PizzaDetailTableViewCell.m; sourceTree = "<group>"; };
+		E1E25E161BC954D400F1BDBE /* PizzaDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaDetailTableViewCell.xib; path = Views/PizzaDetailTableViewCell.xib; sourceTree = "<group>"; };
+		E1E25E1A1BC957CB00F1BDBE /* PizzaListModelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaListModelService.h; path = Networking/PizzaListModelService.h; sourceTree = "<group>"; };
+		E1E25E1B1BC957CB00F1BDBE /* PizzaListModelService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaListModelService.m; path = Networking/PizzaListModelService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E25DEC1BC94FDE00F1BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A637A0CE6248081F0882A9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E5B53F29685A3239F09180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9941316D8131B27601452DF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99722CA67A680919DD2C545 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				584FAB8076E24FE84E3DF99C /* Pods.debug.xcconfig */,
+				733BACDC4B30C0340BACC8A6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1E25DE61BC94FDE00F1BDBE = {
+			isa = PBXGroup;
+			children = (
+				E1E25DF11BC94FDE00F1BDBE /* NearbyPizza */,
+				E1E25DF01BC94FDE00F1BDBE /* Products */,
+				C99722CA67A680919DD2C545 /* Pods */,
+				14E5B53F29685A3239F09180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E25DF01BC94FDE00F1BDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25DEF1BC94FDE00F1BDBE /* NearbyPizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E25DF11BC94FDE00F1BDBE /* NearbyPizza */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25DF51BC94FDE00F1BDBE /* AppDelegate.h */,
+				E1E25DF61BC94FDE00F1BDBE /* AppDelegate.m */,
+				E1E25E191BC9578900F1BDBE /* Networking */,
+				E1E25E0E1BC94FFF00F1BDBE /* Views */,
+				E1E25E0D1BC94FF900F1BDBE /* Models */,
+				E1E25E0C1BC94FEE00F1BDBE /* ViewControllers */,
+				E1E25DFB1BC94FDE00F1BDBE /* Main.storyboard */,
+				E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */,
+				E1E25E031BC94FDE00F1BDBE /* LaunchScreen.storyboard */,
+				E1E25E061BC94FDE00F1BDBE /* Info.plist */,
+				E1E25DFE1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld */,
+				E1E25DF21BC94FDE00F1BDBE /* Supporting Files */,
+			);
+			path = NearbyPizza;
+			sourceTree = "<group>";
+		};
+		E1E25DF21BC94FDE00F1BDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25DF31BC94FDE00F1BDBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1E25E0C1BC94FEE00F1BDBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25DF81BC94FDE00F1BDBE /* ViewController.h */,
+				E1E25DF91BC94FDE00F1BDBE /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1E25E0D1BC94FF900F1BDBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E1E25E0E1BC94FFF00F1BDBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25E111BC954B700F1BDBE /* PizzaListTableViewCell.h */,
+				E1E25E121BC954B700F1BDBE /* PizzaListTableViewCell.m */,
+				E1E25E0F1BC9549300F1BDBE /* PizzaListTableViewCell.xib */,
+				E1E25E141BC954D400F1BDBE /* PizzaDetailTableViewCell.h */,
+				E1E25E151BC954D400F1BDBE /* PizzaDetailTableViewCell.m */,
+				E1E25E161BC954D400F1BDBE /* PizzaDetailTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1E25E191BC9578900F1BDBE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25E1A1BC957CB00F1BDBE /* PizzaListModelService.h */,
+				E1E25E1B1BC957CB00F1BDBE /* PizzaListModelService.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E25DEE1BC94FDE00F1BDBE /* NearbyPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E25E091BC94FDE00F1BDBE /* Build configuration list for PBXNativeTarget "NearbyPizza" */;
+			buildPhases = (
+				FB85DB5F1C759055F1286A09 /* Check Pods Manifest.lock */,
+				E1E25DEB1BC94FDE00F1BDBE /* Sources */,
+				E1E25DEC1BC94FDE00F1BDBE /* Frameworks */,
+				E1E25DED1BC94FDE00F1BDBE /* Resources */,
+				3DAFE18AE09A7F182D1DF5FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyPizza;
+			productName = NearbyPizza;
+			productReference = E1E25DEF1BC94FDE00F1BDBE /* NearbyPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E25DE71BC94FDE00F1BDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rajkumar S";
+				TargetAttributes = {
+					E1E25DEE1BC94FDE00F1BDBE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E1E25DEA1BC94FDE00F1BDBE /* Build configuration list for PBXProject "NearbyPizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E25DE61BC94FDE00F1BDBE;
+			productRefGroup = E1E25DF01BC94FDE00F1BDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E25DEE1BC94FDE00F1BDBE /* NearbyPizza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E25DED1BC94FDE00F1BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E25E101BC9549300F1BDBE /* PizzaListTableViewCell.xib in Resources */,
+				E1E25E051BC94FDE00F1BDBE /* LaunchScreen.storyboard in Resources */,
+				E1E25E021BC94FDE00F1BDBE /* Assets.xcassets in Resources */,
+				E1E25E181BC954D400F1BDBE /* PizzaDetailTableViewCell.xib in Resources */,
+				E1E25DFD1BC94FDE00F1BDBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DAFE18AE09A7F182D1DF5FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB85DB5F1C759055F1286A09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E25DEB1BC94FDE00F1BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E25E131BC954B700F1BDBE /* PizzaListTableViewCell.m in Sources */,
+				E1E25DFA1BC94FDE00F1BDBE /* ViewController.m in Sources */,
+				E1E25DF71BC94FDE00F1BDBE /* AppDelegate.m in Sources */,
+				E1E25DF41BC94FDE00F1BDBE /* main.m in Sources */,
+				E1E25E001BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld in Sources */,
+				E1E25E171BC954D400F1BDBE /* PizzaDetailTableViewCell.m in Sources */,
+				E1E25E1C1BC957CB00F1BDBE /* PizzaListModelService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1E25DFB1BC94FDE00F1BDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E25DFC1BC94FDE00F1BDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E25E031BC94FDE00F1BDBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E25E041BC94FDE00F1BDBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E25E071BC94FDE00F1BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1E25E081BC94FDE00F1BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E25E0A1BC94FDE00F1BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584FAB8076E24FE84E3DF99C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NearbyPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eezy.NearbyPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1E25E0B1BC94FDE00F1BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733BACDC4B30C0340BACC8A6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NearbyPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eezy.NearbyPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E25DEA1BC94FDE00F1BDBE /* Build configuration list for PBXProject "NearbyPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E25E071BC94FDE00F1BDBE /* Debug */,
+				E1E25E081BC94FDE00F1BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E25E091BC94FDE00F1BDBE /* Build configuration list for PBXNativeTarget "NearbyPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E25E0A1BC94FDE00F1BDBE /* Debug */,
+				E1E25E0B1BC94FDE00F1BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1E25DFE1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1E25DFF1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodel */,
+			);
+			currentVersion = E1E25DFF1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodel */;
+			path = NearbyPizza.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1E25DE71BC94FDE00F1BDBE /* Project object */;
+}
