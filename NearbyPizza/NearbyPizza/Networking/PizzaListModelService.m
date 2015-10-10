@@ -62,6 +62,8 @@
     
     NSFetchRequest *request = [[NSFetchRequest alloc]init];
     [request setEntity:[NSEntityDescription entityForName:@"PizzaShop" inManagedObjectContext:[appDelegate managedObjectContext]]];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    [request setSortDescriptors:@[sortDescriptor]];
     NSError *error = nil;
     NSArray *result = [[appDelegate managedObjectContext]executeFetchRequest:request error:&error];
     return  result;
