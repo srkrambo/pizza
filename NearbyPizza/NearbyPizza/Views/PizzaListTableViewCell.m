@@ -20,4 +20,16 @@
     // Configure the view for the selected state
 }
 
+- (void)setCellWithVenueItem:(VenueItem *)venueItem {
+    self.nameLabel.text = venueItem.name;
+    if (venueItem.location.formattedAddress.count) {
+        self.addressLabel.text = [venueItem.location.formattedAddress firstObject];
+    }
+    else{
+        self.addressLabel.text = venueItem.location.address;
+    }
+    self.statsLabel.text = [NSString stringWithFormat:@"%@ tipped",venueItem.stats.tipCount];
+}
+
+
 @end

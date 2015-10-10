@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  NearbyPizza
 //
 //  Created by Rajkumar S on 10/10/15.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseTableViewController.h"
+#import "VenueItem.h"
 
-@interface ViewController : BaseTableViewController
+@interface DetailViewController : BaseTableViewController
 
+@property (nonatomic)VenueItem *venueItem;
 
 @end
-

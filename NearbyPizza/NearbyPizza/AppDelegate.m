@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <JSONModel/JSONModel.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [JSONModel setGlobalKeyMapper:[[JSONKeyMapper alloc]initWithDictionary:@{@"id":@"identifier"}]];
+
+    
     return YES;
 }
 

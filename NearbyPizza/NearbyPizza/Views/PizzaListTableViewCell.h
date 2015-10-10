@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "VenueItem.h"
+
 @interface PizzaListTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (weak, nonatomic) IBOutlet UILabel *statsLabel;
+
+- (void)setCellWithVenueItem:(VenueItem *)venueItem;
 
 @end

@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="281" height="108"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <nil key="simulatedStatusBarMetrics"/>
-            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="402.5" y="111"/>
-        </view>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="120" id="KGk-i7-Jjw" customClass="PizzaListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="441" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIE-pP-10D">
+                        <rect key="frame" x="20" y="20" width="401" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bu9-tE-nn4">
+                        <rect key="frame" x="389" y="45" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XeF-q9-j0R">
+                        <rect key="frame" x="20" y="51" width="344" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bu9-tE-nn4" secondAttribute="trailing" constant="10" id="0Pe-xu-LpT"/>
+                    <constraint firstItem="XeF-q9-j0R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="9qp-eW-h8A"/>
+                    <constraint firstItem="XeF-q9-j0R" firstAttribute="top" secondItem="JIE-pP-10D" secondAttribute="bottom" constant="10" id="Fvq-Ek-4WF"/>
+                    <constraint firstItem="bu9-tE-nn4" firstAttribute="leading" secondItem="XeF-q9-j0R" secondAttribute="trailing" constant="25" id="SMP-tP-5kd"/>
+                    <constraint firstItem="bu9-tE-nn4" firstAttribute="top" secondItem="JIE-pP-10D" secondAttribute="bottom" constant="5" id="dQV-GP-Yhe"/>
+                    <constraint firstItem="JIE-pP-10D" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="fLL-wl-ody"/>
+                    <constraint firstAttribute="trailing" secondItem="JIE-pP-10D" secondAttribute="trailing" constant="20" id="s7i-0I-ewv"/>
+                    <constraint firstItem="JIE-pP-10D" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="xhz-a2-bkf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="XeF-q9-j0R" id="H6y-XF-v7o"/>
+                <outlet property="nameLabel" destination="JIE-pP-10D" id="HGQ-8d-wPz"/>
+                <outlet property="statsLabel" destination="bu9-tE-nn4" id="F0d-pq-Yr3"/>
+            </connections>
+            <point key="canvasLocation" x="444.5" y="412"/>
+        </tableViewCell>
     </objects>
 </document>

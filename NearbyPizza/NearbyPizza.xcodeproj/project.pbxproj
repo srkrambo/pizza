@@ -15,11 +15,28 @@
 		E1E25E001BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1E25DFE1BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld */; };
 		E1E25E021BC94FDE00F1BDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */; };
 		E1E25E051BC94FDE00F1BDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E031BC94FDE00F1BDBE /* LaunchScreen.storyboard */; };
-		E1E25E101BC9549300F1BDBE /* PizzaListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E0F1BC9549300F1BDBE /* PizzaListTableViewCell.xib */; };
-		E1E25E131BC954B700F1BDBE /* PizzaListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E121BC954B700F1BDBE /* PizzaListTableViewCell.m */; };
 		E1E25E171BC954D400F1BDBE /* PizzaDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E151BC954D400F1BDBE /* PizzaDetailTableViewCell.m */; };
 		E1E25E181BC954D400F1BDBE /* PizzaDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E161BC954D400F1BDBE /* PizzaDetailTableViewCell.xib */; };
 		E1E25E1C1BC957CB00F1BDBE /* PizzaListModelService.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E1B1BC957CB00F1BDBE /* PizzaListModelService.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E1F1BC95CB300F1BDBE /* EnvironmentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E1E1BC95CB300F1BDBE /* EnvironmentHelper.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E241BC9623700F1BDBE /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E231BC9623700F1BDBE /* BaseModel.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E2A1BC962C900F1BDBE /* BaseResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E291BC962C900F1BDBE /* BaseResponseModel.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E2D1BC962FC00F1BDBE /* MetaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E2C1BC962FC00F1BDBE /* MetaModel.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E301BC9635800F1BDBE /* BaseVenueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E2F1BC9635800F1BDBE /* BaseVenueModel.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E331BC963A900F1BDBE /* VenueResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E321BC963A900F1BDBE /* VenueResponseModel.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E361BC9642800F1BDBE /* VenueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E351BC9642800F1BDBE /* VenueItem.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E391BC964FE00F1BDBE /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E381BC964FE00F1BDBE /* Contact.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E3C1BC9650A00F1BDBE /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E3B1BC9650A00F1BDBE /* Location.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E3F1BC9651600F1BDBE /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E3E1BC9651600F1BDBE /* Stats.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E421BC9652800F1BDBE /* Specials.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E411BC9652800F1BDBE /* Specials.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E451BC9653700F1BDBE /* HereNow.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E441BC9653700F1BDBE /* HereNow.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E481BC9654B00F1BDBE /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E471BC9654B00F1BDBE /* Menu.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E4B1BC965A500F1BDBE /* ShopCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E4A1BC965A500F1BDBE /* ShopCategory.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E4E1BC969CF00F1BDBE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E4D1BC969CF00F1BDBE /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E511BC969F100F1BDBE /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E501BC969F100F1BDBE /* BaseTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E531BC96BA100F1BDBE /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E521BC96BA100F1BDBE /* New_York_Trip.gpx */; settings = {ASSET_TAGS = (); }; };
+		E1E25E571BC9776900F1BDBE /* PizzaListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E25E551BC9776900F1BDBE /* PizzaListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E1E25E581BC9776900F1BDBE /* PizzaListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E25E561BC9776900F1BDBE /* PizzaListTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,14 +54,48 @@
 		E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1E25E041BC94FDE00F1BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1E25E061BC94FDE00F1BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1E25E0F1BC9549300F1BDBE /* PizzaListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaListTableViewCell.xib; path = Views/PizzaListTableViewCell.xib; sourceTree = "<group>"; };
-		E1E25E111BC954B700F1BDBE /* PizzaListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaListTableViewCell.h; path = Views/PizzaListTableViewCell.h; sourceTree = "<group>"; };
-		E1E25E121BC954B700F1BDBE /* PizzaListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaListTableViewCell.m; path = Views/PizzaListTableViewCell.m; sourceTree = "<group>"; };
 		E1E25E141BC954D400F1BDBE /* PizzaDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaDetailTableViewCell.h; path = Views/PizzaDetailTableViewCell.h; sourceTree = "<group>"; };
 		E1E25E151BC954D400F1BDBE /* PizzaDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaDetailTableViewCell.m; path = Views/PizzaDetailTableViewCell.m; sourceTree = "<group>"; };
 		E1E25E161BC954D400F1BDBE /* PizzaDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaDetailTableViewCell.xib; path = Views/PizzaDetailTableViewCell.xib; sourceTree = "<group>"; };
 		E1E25E1A1BC957CB00F1BDBE /* PizzaListModelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaListModelService.h; path = Networking/PizzaListModelService.h; sourceTree = "<group>"; };
 		E1E25E1B1BC957CB00F1BDBE /* PizzaListModelService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaListModelService.m; path = Networking/PizzaListModelService.m; sourceTree = "<group>"; };
+		E1E25E1D1BC95CB300F1BDBE /* EnvironmentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnvironmentHelper.h; path = Networking/EnvironmentHelper.h; sourceTree = "<group>"; };
+		E1E25E1E1BC95CB300F1BDBE /* EnvironmentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnvironmentHelper.m; path = Networking/EnvironmentHelper.m; sourceTree = "<group>"; };
+		E1E25E211BC95ECA00F1BDBE /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E1E25E221BC9623700F1BDBE /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseModel.h; path = Models/BaseModel.h; sourceTree = "<group>"; };
+		E1E25E231BC9623700F1BDBE /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = Models/BaseModel.m; sourceTree = "<group>"; };
+		E1E25E281BC962C900F1BDBE /* BaseResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseResponseModel.h; path = Models/BaseResponseModel.h; sourceTree = "<group>"; };
+		E1E25E291BC962C900F1BDBE /* BaseResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseResponseModel.m; path = Models/BaseResponseModel.m; sourceTree = "<group>"; };
+		E1E25E2B1BC962FC00F1BDBE /* MetaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetaModel.h; path = Models/MetaModel.h; sourceTree = "<group>"; };
+		E1E25E2C1BC962FC00F1BDBE /* MetaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetaModel.m; path = Models/MetaModel.m; sourceTree = "<group>"; };
+		E1E25E2E1BC9635800F1BDBE /* BaseVenueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseVenueModel.h; path = Models/BaseVenueModel.h; sourceTree = "<group>"; };
+		E1E25E2F1BC9635800F1BDBE /* BaseVenueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseVenueModel.m; path = Models/BaseVenueModel.m; sourceTree = "<group>"; };
+		E1E25E311BC963A900F1BDBE /* VenueResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenueResponseModel.h; path = Models/VenueResponseModel.h; sourceTree = "<group>"; };
+		E1E25E321BC963A900F1BDBE /* VenueResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenueResponseModel.m; path = Models/VenueResponseModel.m; sourceTree = "<group>"; };
+		E1E25E341BC9642800F1BDBE /* VenueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenueItem.h; path = Models/VenueItem.h; sourceTree = "<group>"; };
+		E1E25E351BC9642800F1BDBE /* VenueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenueItem.m; path = Models/VenueItem.m; sourceTree = "<group>"; };
+		E1E25E371BC964FE00F1BDBE /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Models/Contact.h; sourceTree = "<group>"; };
+		E1E25E381BC964FE00F1BDBE /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Models/Contact.m; sourceTree = "<group>"; };
+		E1E25E3A1BC9650A00F1BDBE /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = Models/Location.h; sourceTree = "<group>"; };
+		E1E25E3B1BC9650A00F1BDBE /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = Models/Location.m; sourceTree = "<group>"; };
+		E1E25E3D1BC9651600F1BDBE /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stats.h; path = Models/Stats.h; sourceTree = "<group>"; };
+		E1E25E3E1BC9651600F1BDBE /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stats.m; path = Models/Stats.m; sourceTree = "<group>"; };
+		E1E25E401BC9652800F1BDBE /* Specials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Specials.h; path = Models/Specials.h; sourceTree = "<group>"; };
+		E1E25E411BC9652800F1BDBE /* Specials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Specials.m; path = Models/Specials.m; sourceTree = "<group>"; };
+		E1E25E431BC9653700F1BDBE /* HereNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HereNow.h; path = Models/HereNow.h; sourceTree = "<group>"; };
+		E1E25E441BC9653700F1BDBE /* HereNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HereNow.m; path = Models/HereNow.m; sourceTree = "<group>"; };
+		E1E25E461BC9654B00F1BDBE /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = Models/Menu.h; sourceTree = "<group>"; };
+		E1E25E471BC9654B00F1BDBE /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Menu.m; path = Models/Menu.m; sourceTree = "<group>"; };
+		E1E25E491BC965A500F1BDBE /* ShopCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopCategory.h; path = Models/ShopCategory.h; sourceTree = "<group>"; };
+		E1E25E4A1BC965A500F1BDBE /* ShopCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopCategory.m; path = Models/ShopCategory.m; sourceTree = "<group>"; };
+		E1E25E4C1BC969CF00F1BDBE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ViewControllers/DetailViewController.h; sourceTree = "<group>"; };
+		E1E25E4D1BC969CF00F1BDBE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ViewControllers/DetailViewController.m; sourceTree = "<group>"; };
+		E1E25E4F1BC969F100F1BDBE /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = ViewControllers/BaseTableViewController.h; sourceTree = "<group>"; };
+		E1E25E501BC969F100F1BDBE /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = ViewControllers/BaseTableViewController.m; sourceTree = "<group>"; };
+		E1E25E521BC96BA100F1BDBE /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
+		E1E25E541BC9776900F1BDBE /* PizzaListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaListTableViewCell.h; path = Views/PizzaListTableViewCell.h; sourceTree = "<group>"; };
+		E1E25E551BC9776900F1BDBE /* PizzaListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaListTableViewCell.m; path = Views/PizzaListTableViewCell.m; sourceTree = "<group>"; };
+		E1E25E561BC9776900F1BDBE /* PizzaListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaListTableViewCell.xib; path = Views/PizzaListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +154,7 @@
 				E1E25E0E1BC94FFF00F1BDBE /* Views */,
 				E1E25E0D1BC94FF900F1BDBE /* Models */,
 				E1E25E0C1BC94FEE00F1BDBE /* ViewControllers */,
+				E1E25E201BC95EB100F1BDBE /* Utils */,
 				E1E25DFB1BC94FDE00F1BDBE /* Main.storyboard */,
 				E1E25E011BC94FDE00F1BDBE /* Assets.xcassets */,
 				E1E25E031BC94FDE00F1BDBE /* LaunchScreen.storyboard */,
@@ -116,6 +168,7 @@
 		E1E25DF21BC94FDE00F1BDBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1E25E521BC96BA100F1BDBE /* New_York_Trip.gpx */,
 				E1E25DF31BC94FDE00F1BDBE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -124,8 +177,12 @@
 		E1E25E0C1BC94FEE00F1BDBE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E1E25E4F1BC969F100F1BDBE /* BaseTableViewController.h */,
+				E1E25E501BC969F100F1BDBE /* BaseTableViewController.m */,
 				E1E25DF81BC94FDE00F1BDBE /* ViewController.h */,
 				E1E25DF91BC94FDE00F1BDBE /* ViewController.m */,
+				E1E25E4C1BC969CF00F1BDBE /* DetailViewController.h */,
+				E1E25E4D1BC969CF00F1BDBE /* DetailViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -133,6 +190,32 @@
 		E1E25E0D1BC94FF900F1BDBE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E1E25E221BC9623700F1BDBE /* BaseModel.h */,
+				E1E25E231BC9623700F1BDBE /* BaseModel.m */,
+				E1E25E281BC962C900F1BDBE /* BaseResponseModel.h */,
+				E1E25E291BC962C900F1BDBE /* BaseResponseModel.m */,
+				E1E25E2B1BC962FC00F1BDBE /* MetaModel.h */,
+				E1E25E2C1BC962FC00F1BDBE /* MetaModel.m */,
+				E1E25E2E1BC9635800F1BDBE /* BaseVenueModel.h */,
+				E1E25E2F1BC9635800F1BDBE /* BaseVenueModel.m */,
+				E1E25E311BC963A900F1BDBE /* VenueResponseModel.h */,
+				E1E25E321BC963A900F1BDBE /* VenueResponseModel.m */,
+				E1E25E341BC9642800F1BDBE /* VenueItem.h */,
+				E1E25E351BC9642800F1BDBE /* VenueItem.m */,
+				E1E25E371BC964FE00F1BDBE /* Contact.h */,
+				E1E25E381BC964FE00F1BDBE /* Contact.m */,
+				E1E25E3A1BC9650A00F1BDBE /* Location.h */,
+				E1E25E3B1BC9650A00F1BDBE /* Location.m */,
+				E1E25E3D1BC9651600F1BDBE /* Stats.h */,
+				E1E25E3E1BC9651600F1BDBE /* Stats.m */,
+				E1E25E401BC9652800F1BDBE /* Specials.h */,
+				E1E25E411BC9652800F1BDBE /* Specials.m */,
+				E1E25E431BC9653700F1BDBE /* HereNow.h */,
+				E1E25E441BC9653700F1BDBE /* HereNow.m */,
+				E1E25E461BC9654B00F1BDBE /* Menu.h */,
+				E1E25E471BC9654B00F1BDBE /* Menu.m */,
+				E1E25E491BC965A500F1BDBE /* ShopCategory.h */,
+				E1E25E4A1BC965A500F1BDBE /* ShopCategory.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -140,9 +223,9 @@
 		E1E25E0E1BC94FFF00F1BDBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E1E25E111BC954B700F1BDBE /* PizzaListTableViewCell.h */,
-				E1E25E121BC954B700F1BDBE /* PizzaListTableViewCell.m */,
-				E1E25E0F1BC9549300F1BDBE /* PizzaListTableViewCell.xib */,
+				E1E25E541BC9776900F1BDBE /* PizzaListTableViewCell.h */,
+				E1E25E551BC9776900F1BDBE /* PizzaListTableViewCell.m */,
+				E1E25E561BC9776900F1BDBE /* PizzaListTableViewCell.xib */,
 				E1E25E141BC954D400F1BDBE /* PizzaDetailTableViewCell.h */,
 				E1E25E151BC954D400F1BDBE /* PizzaDetailTableViewCell.m */,
 				E1E25E161BC954D400F1BDBE /* PizzaDetailTableViewCell.xib */,
@@ -153,10 +236,20 @@
 		E1E25E191BC9578900F1BDBE /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E1E25E1D1BC95CB300F1BDBE /* EnvironmentHelper.h */,
+				E1E25E1E1BC95CB300F1BDBE /* EnvironmentHelper.m */,
 				E1E25E1A1BC957CB00F1BDBE /* PizzaListModelService.h */,
 				E1E25E1B1BC957CB00F1BDBE /* PizzaListModelService.m */,
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		E1E25E201BC95EB100F1BDBE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1E25E211BC95ECA00F1BDBE /* Constants.h */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,8 +311,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E25E101BC9549300F1BDBE /* PizzaListTableViewCell.xib in Resources */,
+				E1E25E581BC9776900F1BDBE /* PizzaListTableViewCell.xib in Resources */,
 				E1E25E051BC94FDE00F1BDBE /* LaunchScreen.storyboard in Resources */,
+				E1E25E531BC96BA100F1BDBE /* New_York_Trip.gpx in Resources */,
 				E1E25E021BC94FDE00F1BDBE /* Assets.xcassets in Resources */,
 				E1E25E181BC954D400F1BDBE /* PizzaDetailTableViewCell.xib in Resources */,
 				E1E25DFD1BC94FDE00F1BDBE /* Main.storyboard in Resources */,
@@ -266,12 +360,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E25E131BC954B700F1BDBE /* PizzaListTableViewCell.m in Sources */,
+				E1E25E3F1BC9651600F1BDBE /* Stats.m in Sources */,
+				E1E25E361BC9642800F1BDBE /* VenueItem.m in Sources */,
+				E1E25E241BC9623700F1BDBE /* BaseModel.m in Sources */,
+				E1E25E451BC9653700F1BDBE /* HereNow.m in Sources */,
+				E1E25E421BC9652800F1BDBE /* Specials.m in Sources */,
 				E1E25DFA1BC94FDE00F1BDBE /* ViewController.m in Sources */,
+				E1E25E4E1BC969CF00F1BDBE /* DetailViewController.m in Sources */,
+				E1E25E4B1BC965A500F1BDBE /* ShopCategory.m in Sources */,
 				E1E25DF71BC94FDE00F1BDBE /* AppDelegate.m in Sources */,
+				E1E25E1F1BC95CB300F1BDBE /* EnvironmentHelper.m in Sources */,
+				E1E25E2A1BC962C900F1BDBE /* BaseResponseModel.m in Sources */,
+				E1E25E481BC9654B00F1BDBE /* Menu.m in Sources */,
+				E1E25E391BC964FE00F1BDBE /* Contact.m in Sources */,
 				E1E25DF41BC94FDE00F1BDBE /* main.m in Sources */,
+				E1E25E571BC9776900F1BDBE /* PizzaListTableViewCell.m in Sources */,
+				E1E25E511BC969F100F1BDBE /* BaseTableViewController.m in Sources */,
 				E1E25E001BC94FDE00F1BDBE /* NearbyPizza.xcdatamodeld in Sources */,
+				E1E25E331BC963A900F1BDBE /* VenueResponseModel.m in Sources */,
 				E1E25E171BC954D400F1BDBE /* PizzaDetailTableViewCell.m in Sources */,
+				E1E25E2D1BC962FC00F1BDBE /* MetaModel.m in Sources */,
+				E1E25E301BC9635800F1BDBE /* BaseVenueModel.m in Sources */,
+				E1E25E3C1BC9650A00F1BDBE /* Location.m in Sources */,
 				E1E25E1C1BC957CB00F1BDBE /* PizzaListModelService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NearbyPizza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eezy.NearbyPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NearbyPizza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eezy.NearbyPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";

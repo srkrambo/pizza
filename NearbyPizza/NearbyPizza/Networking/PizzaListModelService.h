@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface PizzaListModelService : NSObject
 
-+ (void)fetchDataWithCompletion:(void (^)(id responseData, NSError *error, NSHTTPURLResponse *response))completion;
++ (void)fetchDataForLocation:(CLLocation *) location withCompletion:(void (^)(NSArray *venueArray, NSError *error, NSHTTPURLResponse *response))completion;
 
 @end
